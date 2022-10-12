@@ -1,0 +1,864 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Passions+Conflict&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url(https://tekla.io/wp-content/uploads/2022/03/Recurso1.png);
+}
+
+h2 {
+  background-color: rgb(7, 1, 1);
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: #ccc;
+  height: 60px;
+}
+
+hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 5px;
+  background: black;
+}
+
+footer {
+  background-color: rgb(7, 1, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .nav {
+  margin-left: 40px;
+  color: #ccc;
+}
+footer .nav .nav-link {
+  font-family: "Shadows Into Light";
+  font-size: 20px;
+  font-weight: bold;
+  color: #ccc;
+}
+footer .footer {
+  display: block;
+  color: #ccc;
+  height: auto;
+  width: 500px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: auto;
+}
+footer .footer h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.volver {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ccc;
+  text-decoration: none;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+header nav {
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+header nav ul {
+  display: inline-block;
+  text-align: center;
+}
+header nav li {
+  display: inline;
+}
+header nav li a {
+  list-style: none;
+  text-decoration: none;
+  color: #ccc;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+#contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+#contacto #basic-form {
+  margin-top: 50px;
+  width: 650px;
+}
+#contacto #basic-form label {
+  background-color: rgb(7, 1, 1);
+  font-size: 23px;
+  font-weight: bold;
+  color: #ccc;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: "Shadows Into Light", cursive;
+  border-radius: 10px;
+  height: 40px;
+}
+#contacto #basic-form #name {
+  margin-left: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+#contacto #basic-form #email {
+  margin-left: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+#contacto #basic-form #text {
+  height: 200px;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+#contacto .dos {
+  list-style: none;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#contacto .dos svg {
+  margin: 10px 10px 10px 10px;
+}
+#contacto .dos a {
+  color: #ccc;
+  font-size: 20px;
+}
+#contacto .submit {
+  font-family: "Shadows Into Light", cursive;
+  margin-left: 20px;
+  background-color: rgb(7, 1, 1);
+  color: #ccc;
+  border-radius: 10px;
+  height: 30px;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Nunito Sans";
+  margin-bottom: 60px;
+}
+
+h1 {
+  margin-left: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: orange;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+.d-block {
+  width: 60%;
+  text-align: center;
+}
+
+.info {
+  margin-left: 250px;
+  width: 65%;
+  margin-bottom: 230px;
+}
+.info h3 {
+  background-color: #ccc;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(7, 1, 1);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 40px;
+}
+
+#nosotros {
+  display: flex;
+  flex-direction: column;
+}
+#nosotros .avatar {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 570px;
+}
+#nosotros p {
+  background-color: rgb(29, 29, 142);
+  box-shadow: 2px 2px 20px white;
+  color: #ccc;
+  font-family: "Nunito Sans";
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 20px 20px 20px;
+  margin-left: 370px;
+  font-size: 20px;
+  width: 600px;
+}
+#nosotros .coder {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-left: 550px;
+  margin-bottom: 200px;
+}
+#nosotros .udemy {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-left: 40px;
+  margin-bottom: 200px;
+}
+
+.card {
+  background-color: rgb(18, 17, 120);
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-family: "Nunito Sans";
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+}
+
+.btn {
+  background: rgb(7, 1, 1);
+  color: #ccc;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+}
+
+.card-title {
+  color: #ccc;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 10px 10px 10px;
+  padding-bottom: 20px;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+.row {
+  width: 90%;
+}
+
+@media (max-width: 986px) {
+  header nav {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  header nav ul {
+    display: inline-block;
+    text-align: center;
+  }
+  header nav li {
+    display: inline;
+  }
+  header nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Nunito Sans";
+    margin-bottom: 60px;
+  }
+  h1 {
+    margin-left: 220px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: orange;
+    font-weight: bold;
+    font-size: 90px;
+  }
+  .d-block {
+    width: 60%;
+    text-align: center;
+  }
+  .info {
+    margin-left: 200px;
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  .info h3 {
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(7, 1, 1);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40px;
+  }
+  #nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  #nosotros .avatar {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 440px;
+  }
+  #nosotros p {
+    background-color: rgb(29, 29, 142);
+    box-shadow: 2px 2px 20px white;
+    color: #ccc;
+    font-family: "Nunito Sans";
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    margin-left: 300px;
+    font-size: 20px;
+    width: 500px;
+  }
+  #nosotros .coder {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+  }
+  #nosotros .udemy {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 200px;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+  #contacto #basic-form {
+    margin-top: 50px;
+    width: 300px;
+  }
+  #contacto #basic-form label {
+    background-color: rgb(7, 1, 1);
+    font-size: 23px;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Shadows Into Light", cursive;
+    border-radius: 10px;
+    height: 40px;
+  }
+  #contacto #basic-form #name {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contacto #basic-form #email {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contacto #basic-form #text {
+    height: 200px;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  #contacto .dos {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #contacto .dos a {
+    color: #ccc;
+    font-size: 15px;
+  }
+  #contacto .submit {
+    font-family: "Shadows Into Light", cursive;
+    margin-left: 20px;
+    background-color: rgb(7, 1, 1);
+    color: #ccc;
+    border-radius: 10px;
+    height: 30px;
+  }
+  footer {
+    background-color: rgb(7, 1, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .nav {
+    margin-left: 40px;
+    color: #ccc;
+  }
+  footer .nav .nav-link {
+    font-family: "Shadows Into Light";
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  footer .footer {
+    display: block;
+    color: #ccc;
+    width: max-content;
+  }
+  footer .footer h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  .volver {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ccc;
+    text-decoration: none;
+  }
+}
+@media (max-width: 768px) {
+  header nav {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  header nav ul {
+    display: inline-block;
+    text-align: center;
+  }
+  header nav li {
+    display: inline;
+  }
+  header nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Nunito Sans";
+    margin-bottom: 60px;
+  }
+  h1 {
+    margin-left: 160px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: orange;
+    font-weight: bold;
+    font-size: 90px;
+  }
+  .d-block {
+    width: 60%;
+    text-align: center;
+  }
+  .info {
+    margin-left: 130px;
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  .info h3 {
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(7, 1, 1);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40px;
+  }
+  #nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  #nosotros .avatar {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+  }
+  #nosotros p {
+    background-color: rgb(29, 29, 142);
+    box-shadow: 2px 2px 20px white;
+    color: #ccc;
+    font-family: "Nunito Sans";
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 400px;
+  }
+  #nosotros .coder {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 270px;
+    margin-bottom: 200px;
+  }
+  #nosotros .udemy {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 200px;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+  #contacto #basic-form {
+    margin-top: 50px;
+    width: 300px;
+  }
+  #contacto #basic-form label {
+    background-color: rgb(7, 1, 1);
+    font-size: 23px;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Shadows Into Light", cursive;
+    border-radius: 10px;
+    height: 40px;
+  }
+  #contacto #basic-form #name {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contacto #basic-form #email {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contacto #basic-form #text {
+    height: 200px;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  #contacto .dos {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #contacto .dos a {
+    color: #ccc;
+    font-size: 15px;
+  }
+  #contacto .submit {
+    font-family: "Shadows Into Light", cursive;
+    margin-left: 20px;
+    background-color: rgb(7, 1, 1);
+    color: #ccc;
+    border-radius: 10px;
+    height: 30px;
+  }
+  footer {
+    background-color: rgb(7, 1, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .nav {
+    margin-left: 40px;
+    color: #ccc;
+  }
+  footer .nav .nav-link {
+    font-family: "Shadows Into Light";
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  footer .footer {
+    display: block;
+    color: #ccc;
+    width: max-content;
+  }
+  footer .footer h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  .volver {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ccc;
+    text-decoration: none;
+  }
+}
+@media (max-width: 480px) {
+  header nav {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  header nav ul {
+    display: inline-block;
+    text-align: center;
+  }
+  header nav li {
+    display: inline;
+  }
+  header nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: #ccc;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Nunito Sans";
+    margin-bottom: 60px;
+  }
+  h1 {
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: orange;
+    font-weight: bold;
+    font-size: 90px;
+  }
+  .d-block {
+    width: 60%;
+    text-align: center;
+  }
+  .info {
+    margin-left: 110px;
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  .info h3 {
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(7, 1, 1);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40px;
+  }
+  #nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  #nosotros .avatar {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+  }
+  #nosotros p {
+    background-color: rgb(29, 29, 142);
+    box-shadow: 2px 2px 20px white;
+    color: #ccc;
+    font-family: "Nunito Sans";
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    width: 300px;
+  }
+  #nosotros .coder {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+  }
+  #nosotros .udemy {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 200px;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 150px;
+  }
+  #contacto #basic-form {
+    margin-top: 50px;
+    width: 300px;
+  }
+  #contacto #basic-form label {
+    background-color: rgb(7, 1, 1);
+    font-size: 23px;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Shadows Into Light", cursive;
+    border-radius: 10px;
+    height: 40px;
+  }
+  #contacto #basic-form #name {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contacto #basic-form #email {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contacto #basic-form #text {
+    height: 200px;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  #contacto .dos {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #contacto .dos a {
+    color: #ccc;
+    font-size: 15px;
+  }
+  #contacto .submit {
+    font-family: "Shadows Into Light", cursive;
+    margin-left: 20px;
+    background-color: rgb(7, 1, 1);
+    color: #ccc;
+    border-radius: 10px;
+    height: 30px;
+  }
+  footer {
+    background-color: rgb(7, 1, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .nav {
+    margin-left: 40px;
+    color: #ccc;
+  }
+  footer .nav .nav-link {
+    font-family: "Shadows Into Light";
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  footer .footer {
+    display: block;
+    color: #ccc;
+    width: max-content;
+  }
+  footer .footer h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+  }
+  .volver {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ccc;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=style.css.map */

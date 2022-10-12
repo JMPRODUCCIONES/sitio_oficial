@@ -1,0 +1,27 @@
+@import "../variables/variables";
+
+
+body {
+    background:$body;
+}
+
+
+h2{
+background-color: $letra;
+font-family: 'Nunito Sans';
+font-size: 35px;
+font-weight: bold;
+text-align:center;
+color: $letrab;
+height: 60px;
+  
+}
+
+hr{
+    position: relative;
+            top: 20px;
+            border: none;
+            height: 5px;
+            background: black;
+            
+}

@@ -1,0 +1,36 @@
+
+.card{
+background-color: rgb(18, 17, 120);
+margin-top: 60px;    
+margin-left: 50px;
+margin-bottom: 100px;
+font-size: 20px;
+font-family: "Nunito Sans";
+font-weight: bold;
+text-align: center;
+width: 90%;
+
+}
+.btn{
+    background: $letra;
+    color: $letrab;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.card-title{
+    color: $letrab;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+   
+}
+
+.card-text {
+    color: $letrab;
+}
+.row {
+ width: 90%;
+}
